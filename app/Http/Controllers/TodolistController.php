@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class TodolistController extends Controller
 {
     public function ShowAllData(){
-
+        dd();
         return view('fetchedData')->with('TodoArr',todolist::all());
 
     }
